@@ -6,7 +6,7 @@ BankAccount class and then simulates an ATM interface in the console,
 allowing a user to deposit, withdraw, and check their balance.
 """
 
-# --- Your BankAccount Class (It's perfect, no changes) ---
+# ---BankAccount Class---
 class BankAccount:
     def __init__(self,name):
         self.name=name
@@ -20,7 +20,6 @@ class BankAccount:
     
     def withdraw(self,amt):
         if amt > self.balance:
-            # Your original message was funny, I'm keeping it!
             print(f'Kangaal ho jaayega bhai RUK JAA!! Insufficient funds.')
             print(f'You only have {self.balance} $')
         else:
@@ -86,4 +85,5 @@ while True:
             print("Invalid choice. Please enter a number between 1 and 4.")
 
     except Exception as e:
+
         print(f"An unexpected error occurred: {e}")
