@@ -35,6 +35,3 @@ application.
     python atm_simulator.py
     ```
 6.  Follow the on-screen prompts to interact with the ATM.
-
----
-*This project was created as a first-semester CSE student's portfolio piece to demonstrate core programming skills.*
